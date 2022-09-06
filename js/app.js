@@ -52,7 +52,9 @@ const flute = new Woodwind(10);
 
 const instruments = [drums, guitar, flute];
 
-/* I found a way to get the playNext/Loop to work together but kept everything like how I showed in class, but if I wanted to use this function I would just change out the button to use it instead of playNext() and change the "over" method in the instrument class to no longer call playNext() */
+//I found a way to get the playNext/Loop to work together but kept everything like how I showed in class
+//If I wanted to use the playSounds function I would just change out the button to
+//use it instead of playNext() and change the "over" method in the instrument class to no longer call playNext()
 
 // function playSounds() {
 //   for (let index = 0; index < instruments.length; index++) {
